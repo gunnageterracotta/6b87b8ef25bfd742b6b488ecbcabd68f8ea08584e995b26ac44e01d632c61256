@@ -3,23 +3,16 @@ name: gunnageterracotta
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 1/6 * * *'
-
+    - cron: '41 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: gunnageterracotta
         env:
-          iagh648: ${{ secrets.iagh648 }}
+          l18: ${{ secrets.l18 }}
         run: |
-          echo $iagh648 | jq -r .ayesd3 | /bin/bash
-          echo $tyk74013 | jq -r .cxty0119 | /bin/bash
-          echo $j37 | jq -r .avt7 | /bin/bash
-          echo $i1254 | jq -r .p0 | /bin/bash
-          echo $b09 | jq -r .gqja6 | /bin/bash
-          echo $ko520 | jq -r .otrvn05202 | /bin/bash
-          echo $z1584 | jq -r .k927 | /bin/bash
+          echo $l18 | jq -r .lpx96 | /bin/bash
+          echo $dz238 | jq -r .bqbd069 | /bin/bash
 
